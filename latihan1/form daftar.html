@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+	<title> Form Daftar </title>
+  </head>
+	
+  <body>
+	<h2> BUAT ACCOUNT BARU! </h2>
+	<h3>Sign Up Form</h3>
+	<form action="./selamat datang.html" method="post">
+		<label for = "nama_depan"> Nama Depan </label>
+		<br>
+		<input type = "text" name = "nama_depan" value = "" id ="nama_depan" required>
+		<br>
+		<label for = "nama_belakang"> Nama Belakang </label>
+		<br>
+		<input type = "text" name = "nama_belakang" value = "" id ="nama_belakang" required>
+		<br>
+		<label for = "gender">Gender:</label>
+		<br>
+		<input type = "radio" name = "gender" value = "Male" id = "male-radio">
+		<label for = "male-radio"> Male </label>
+		<br>
+		<input type = "radio" name = "gender" value = "Female" id =" female-radio">
+		<label for = "female-radio"> Female </label>
+		<br>
+		<label for = "nationality"> Nationality : </label>
+		<br>
+		<select name = "nationality" id = "nationality">
+		  <option value = "indonesian">Indonesian</option>
+		  <option value = "malaysian">Malaysian</option>
+		</select>
+		<br>
+		<label for = "bahasa">Language Spoken:</label>
+		<br>
+		<input type = "radio" name = "bahasa" value = "Indonesia" id= "radio-indonesia">
+		<label for = "radio-indonesia"> Bahasa Indonesia</label>
+		<br>
+		<input type = "radio" name = "bahasa" value = "Inggris" id= "radio-inggris">
+		<label for = "radio-inggris"> Inggris</label>
+		<br>
+		<input type = "radio" name = "bahasa" value = "Other" id= "radio-other">
+		<label for = "radio-othern"> Other</label>
+		</select>
+		<br>
+		<label for = "bio" >Bio:</label>
+		<br>
+		<textarea name = "name" rows = "8" cols = "40">
+		</textarea>
+		<br>
+		<input type = "submit"   value = "Sign Up">
+	</form>
+	
+  </body>
+
+</html>
